@@ -1,3 +1,15 @@
-// create function for search function 
-// create a function that retrieves/submits information from the "Create account" button
+// create a function that gets FAQ-id and drops down the accordion
+
+let myModal = document.getElementById('FAQ-id')
+
+function dropDownFAQ(){
+  if 
+
+}
+
+myModal.addEventListener('click', dropDownFAQ(event) {
+  if (!data) {
+    return event.preventDefault() // stops modal from being shown
+  }
+})
 
