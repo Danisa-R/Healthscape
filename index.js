@@ -1,15 +1,16 @@
 // create a function that gets FAQ-id and drops down the accordion
 
-let myModal = document.getElementById('FAQ-id')
+let acc = document.getElementsById("FAQ-id");
+let i;
 
-function dropDownFAQ(){
-  if 
-
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
-
-myModal.addEventListener('click', dropDownFAQ(event) {
-  if (!data) {
-    return event.preventDefault() // stops modal from being shown
-  }
-})
-
